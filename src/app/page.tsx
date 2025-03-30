@@ -107,7 +107,7 @@ export default function Home() {
                                 Empower students and institutions with tamper-proof digital identities and blockchain-verified certificates in a decentralized ecosystem.
                             </p>
                             <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                                <Link href="/students/register" className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-3 rounded-lg font-medium text-center shadow-lg shadow-blue-500/20 transition-all duration-200">
+                                <Link href="/students" className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-3 rounded-lg font-medium text-center shadow-lg shadow-blue-500/20 transition-all duration-200">
                                     <span className="flex items-center justify-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
                                             <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
@@ -116,7 +116,7 @@ export default function Home() {
                                         Student Registration
                                     </span>
                                 </Link>
-                                <Link href="/institutions/register" className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white px-6 py-3 rounded-lg font-medium text-center shadow-lg shadow-orange-500/20 transition-all duration-200">
+                                <Link href="/institutions" className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white px-6 py-3 rounded-lg font-medium text-center shadow-lg shadow-orange-500/20 transition-all duration-200">
                                     <span className="flex items-center justify-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4zm3 1h6v4H7V5zm8 8v2h1v1H4v-1h1v-2h-.5a.5.5 0 01-.5-.5v-2a.5.5 0 01.5-.5H6V8h8v1.5h.5a.5.5 0 01.5.5v2a.5.5 0 01-.5.5H15z" clipRule="evenodd" />
