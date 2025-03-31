@@ -8,7 +8,8 @@ import {
   optimism,
   polygon,
   type AppKitNetwork,
-  baseSepolia
+  baseSepolia,
+  hederaTestnet,
 } from '@reown/appkit/networks'
 
 export const projectId = '12f899790f0720dff5781c6aa4066677'
@@ -34,7 +35,7 @@ const eduChainTestnet = {
   blockExplorers: {
     default: {
       name: 'EduScan Testnet',
-      url: 'https://edu-chain-testnet.blockscout.com',  
+      url: 'https://edu-chain-testnet.blockscout.com',
     },
   },
   testnet: true, // Explicitly mark as testnet
@@ -44,6 +45,7 @@ const eduChainTestnet = {
 } as const satisfies AppKitNetwork;
 
 export const networks = [
+  hederaTestnet,
   mainnet,
   arbitrum,
   avalanche,
@@ -51,7 +53,7 @@ export const networks = [
   optimism,
   polygon,
   baseSepolia,
-  eduChainTestnet, // Use updated variable name
+  eduChainTestnet,
 ] as [AppKitNetwork, ...AppKitNetwork[]];
 
 export const wagmiAdapter = new WagmiAdapter({
